@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AAC76132034EABBA864F031 /* libPods-WashingMachine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD41176E9CB48028354EE790 /* libPods-WashingMachine.a */; };
+		CC4E24FC24873BD000500D59 /* ClothesSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4E24FB24873BD000500D59 /* ClothesSelectionViewController.swift */; };
+		CC4E24FE24874DAE00500D59 /* WashingMachineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4E24FD24874DAE00500D59 /* WashingMachineService.swift */; };
+		CC6F0FBF2485F54900B8BBAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6F0FBE2485F54900B8BBAD /* AppDelegate.swift */; };
+		CC6F0FC12485F54900B8BBAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6F0FC02485F54900B8BBAD /* SceneDelegate.swift */; };
+		CC6F0FC32485F54900B8BBAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6F0FC22485F54900B8BBAD /* ContentView.swift */; };
+		CC6F0FC52485F54B00B8BBAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6F0FC42485F54B00B8BBAD /* Assets.xcassets */; };
+		CC6F0FC82485F54B00B8BBAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6F0FC72485F54B00B8BBAD /* Preview Assets.xcassets */; };
+		CC6F0FCB2485F54B00B8BBAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6F0FC92485F54B00B8BBAD /* LaunchScreen.storyboard */; };
+		CC6F0FD62485F54B00B8BBAD /* WashingMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6F0FD52485F54B00B8BBAD /* WashingMachineTests.swift */; };
+		CC6F0FE12485F54B00B8BBAD /* WashingMachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6F0FE02485F54B00B8BBAD /* WashingMachineUITests.swift */; };
+		CC6F102E2486005000B8BBAD /* FunctionSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6F102D2486005000B8BBAD /* FunctionSelectionViewController.swift */; };
+		CC6F103024860C2100B8BBAD /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6F102F24860C2100B8BBAD /* SelectionButton.swift */; };
+		CC6F10392486400500B8BBAD /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6F10382486400500B8BBAD /* TimePickerView.swift */; };
+		CC6F103B2486420D00B8BBAD /* TimePickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6F103A2486420D00B8BBAD /* TimePickerService.swift */; };
+		CCCA2D0E24866DC400DA32C2 /* WorkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA2D0D24866DC400DA32C2 /* WorkingViewController.swift */; };
+		CCCA2D1224867FE000DA32C2 /* WashingMachine.gif in Resources */ = {isa = PBXBuildFile; fileRef = CCCA2D1124867FE000DA32C2 /* WashingMachine.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC6F0FD22485F54B00B8BBAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6F0FB32485F54900B8BBAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6F0FBA2485F54900B8BBAD;
+			remoteInfo = WashingMachine;
+		};
+		CC6F0FDD2485F54B00B8BBAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6F0FB32485F54900B8BBAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6F0FBA2485F54900B8BBAD;
+			remoteInfo = WashingMachine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F96ADD37DB9EC224E788F24 /* Pods-WashingMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashingMachine.release.xcconfig"; path = "Target Support Files/Pods-WashingMachine/Pods-WashingMachine.release.xcconfig"; sourceTree = "<group>"; };
+		9F7BB02F2C44D2A15368B785 /* Pods-WashingMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashingMachine.debug.xcconfig"; path = "Target Support Files/Pods-WashingMachine/Pods-WashingMachine.debug.xcconfig"; sourceTree = "<group>"; };
+		CC4E24FB24873BD000500D59 /* ClothesSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesSelectionViewController.swift; sourceTree = "<group>"; };
+		CC4E24FD24874DAE00500D59 /* WashingMachineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingMachineService.swift; sourceTree = "<group>"; };
+		CC6F0FBB2485F54900B8BBAD /* WashingMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WashingMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6F0FBE2485F54900B8BBAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC6F0FC02485F54900B8BBAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC6F0FC22485F54900B8BBAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC6F0FC42485F54B00B8BBAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC6F0FC72485F54B00B8BBAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC6F0FCA2485F54B00B8BBAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC6F0FCC2485F54B00B8BBAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6F0FD12485F54B00B8BBAD /* WashingMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WashingMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6F0FD52485F54B00B8BBAD /* WashingMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingMachineTests.swift; sourceTree = "<group>"; };
+		CC6F0FD72485F54B00B8BBAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6F0FDC2485F54B00B8BBAD /* WashingMachineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WashingMachineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6F0FE02485F54B00B8BBAD /* WashingMachineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingMachineUITests.swift; sourceTree = "<group>"; };
+		CC6F0FE22485F54B00B8BBAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6F102D2486005000B8BBAD /* FunctionSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionSelectionViewController.swift; sourceTree = "<group>"; };
+		CC6F102F24860C2100B8BBAD /* SelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionButton.swift; sourceTree = "<group>"; };
+		CC6F10382486400500B8BBAD /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
+		CC6F103A2486420D00B8BBAD /* TimePickerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerService.swift; sourceTree = "<group>"; };
+		CCCA2D0D24866DC400DA32C2 /* WorkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingViewController.swift; sourceTree = "<group>"; };
+		CCCA2D1124867FE000DA32C2 /* WashingMachine.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = WashingMachine.gif; sourceTree = "<group>"; };
+		CD41176E9CB48028354EE790 /* libPods-WashingMachine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WashingMachine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC6F0FB82485F54900B8BBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAC76132034EABBA864F031 /* libPods-WashingMachine.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6F0FCE2485F54B00B8BBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6F0FD92485F54B00B8BBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3D7CDBC7F59A7A6266EE448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD41176E9CB48028354EE790 /* libPods-WashingMachine.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC6F0FB22485F54900B8BBAD = {
+			isa = PBXGroup;
+			children = (
+				CC6F0FBD2485F54900B8BBAD /* WashingMachine */,
+				CC6F0FD42485F54B00B8BBAD /* WashingMachineTests */,
+				CC6F0FDF2485F54B00B8BBAD /* WashingMachineUITests */,
+				CC6F0FBC2485F54900B8BBAD /* Products */,
+				DCD7D27FB8B8B56361FF052F /* Pods */,
+				A3D7CDBC7F59A7A6266EE448 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC6F0FBC2485F54900B8BBAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC6F0FBB2485F54900B8BBAD /* WashingMachine.app */,
+				CC6F0FD12485F54B00B8BBAD /* WashingMachineTests.xctest */,
+				CC6F0FDC2485F54B00B8BBAD /* WashingMachineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC6F0FBD2485F54900B8BBAD /* WashingMachine */ = {
+			isa = PBXGroup;
+			children = (
+				CC6F103724863E8500B8BBAD /* UIComponent */,
+				CC6F103624863E7800B8BBAD /* Service */,
+				CC6F10332486355B00B8BBAD /* Material */,
+				CC6F102A2485FA7200B8BBAD /* SupportingFiles */,
+				CC6F0FC62485F54B00B8BBAD /* Preview Content */,
+			);
+			path = WashingMachine;
+			sourceTree = "<group>";
+		};
+		CC6F0FC62485F54B00B8BBAD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC6F0FC72485F54B00B8BBAD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC6F0FD42485F54B00B8BBAD /* WashingMachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC6F0FD52485F54B00B8BBAD /* WashingMachineTests.swift */,
+				CC6F0FD72485F54B00B8BBAD /* Info.plist */,
+			);
+			path = WashingMachineTests;
+			sourceTree = "<group>";
+		};
+		CC6F0FDF2485F54B00B8BBAD /* WashingMachineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC6F0FE02485F54B00B8BBAD /* WashingMachineUITests.swift */,
+				CC6F0FE22485F54B00B8BBAD /* Info.plist */,
+			);
+			path = WashingMachineUITests;
+			sourceTree = "<group>";
+		};
+		CC6F102A2485FA7200B8BBAD /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CC6F0FBE2485F54900B8BBAD /* AppDelegate.swift */,
+				CC6F0FC02485F54900B8BBAD /* SceneDelegate.swift */,
+				CC6F0FC22485F54900B8BBAD /* ContentView.swift */,
+				CC6F0FC42485F54B00B8BBAD /* Assets.xcassets */,
+				CC6F0FC92485F54B00B8BBAD /* LaunchScreen.storyboard */,
+				CC6F0FCC2485F54B00B8BBAD /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		CC6F10332486355B00B8BBAD /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA2D1124867FE000DA32C2 /* WashingMachine.gif */,
+			);
+			path = Material;
+			sourceTree = "<group>";
+		};
+		CC6F103624863E7800B8BBAD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CC6F103A2486420D00B8BBAD /* TimePickerService.swift */,
+				CC4E24FD24874DAE00500D59 /* WashingMachineService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CC6F103724863E8500B8BBAD /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				CC6F102D2486005000B8BBAD /* FunctionSelectionViewController.swift */,
+				CC6F102F24860C2100B8BBAD /* SelectionButton.swift */,
+				CC6F10382486400500B8BBAD /* TimePickerView.swift */,
+				CCCA2D0D24866DC400DA32C2 /* WorkingViewController.swift */,
+				CC4E24FB24873BD000500D59 /* ClothesSelectionViewController.swift */,
+			);
+			path = UIComponent;
+			sourceTree = "<group>";
+		};
+		DCD7D27FB8B8B56361FF052F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F7BB02F2C44D2A15368B785 /* Pods-WashingMachine.debug.xcconfig */,
+				5F96ADD37DB9EC224E788F24 /* Pods-WashingMachine.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC6F0FBA2485F54900B8BBAD /* WashingMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6F0FE52485F54B00B8BBAD /* Build configuration list for PBXNativeTarget "WashingMachine" */;
+			buildPhases = (
+				9BB71C4933524693EE9FAFD2 /* [CP] Check Pods Manifest.lock */,
+				CC6F0FB72485F54900B8BBAD /* Sources */,
+				CC6F0FB82485F54900B8BBAD /* Frameworks */,
+				CC6F0FB92485F54900B8BBAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WashingMachine;
+			productName = WashingMachine;
+			productReference = CC6F0FBB2485F54900B8BBAD /* WashingMachine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC6F0FD02485F54B00B8BBAD /* WashingMachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6F0FE82485F54B00B8BBAD /* Build configuration list for PBXNativeTarget "WashingMachineTests" */;
+			buildPhases = (
+				CC6F0FCD2485F54B00B8BBAD /* Sources */,
+				CC6F0FCE2485F54B00B8BBAD /* Frameworks */,
+				CC6F0FCF2485F54B00B8BBAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6F0FD32485F54B00B8BBAD /* PBXTargetDependency */,
+			);
+			name = WashingMachineTests;
+			productName = WashingMachineTests;
+			productReference = CC6F0FD12485F54B00B8BBAD /* WashingMachineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC6F0FDB2485F54B00B8BBAD /* WashingMachineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6F0FEB2485F54B00B8BBAD /* Build configuration list for PBXNativeTarget "WashingMachineUITests" */;
+			buildPhases = (
+				CC6F0FD82485F54B00B8BBAD /* Sources */,
+				CC6F0FD92485F54B00B8BBAD /* Frameworks */,
+				CC6F0FDA2485F54B00B8BBAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6F0FDE2485F54B00B8BBAD /* PBXTargetDependency */,
+			);
+			name = WashingMachineUITests;
+			productName = WashingMachineUITests;
+			productReference = CC6F0FDC2485F54B00B8BBAD /* WashingMachineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC6F0FB32485F54900B8BBAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = zhangzhe;
+				TargetAttributes = {
+					CC6F0FBA2485F54900B8BBAD = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					CC6F0FD02485F54B00B8BBAD = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = CC6F0FBA2485F54900B8BBAD;
+					};
+					CC6F0FDB2485F54B00B8BBAD = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = CC6F0FBA2485F54900B8BBAD;
+					};
+				};
+			};
+			buildConfigurationList = CC6F0FB62485F54900B8BBAD /* Build configuration list for PBXProject "WashingMachine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC6F0FB22485F54900B8BBAD;
+			productRefGroup = CC6F0FBC2485F54900B8BBAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC6F0FBA2485F54900B8BBAD /* WashingMachine */,
+				CC6F0FD02485F54B00B8BBAD /* WashingMachineTests */,
+				CC6F0FDB2485F54B00B8BBAD /* WashingMachineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC6F0FB92485F54900B8BBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCA2D1224867FE000DA32C2 /* WashingMachine.gif in Resources */,
+				CC6F0FCB2485F54B00B8BBAD /* LaunchScreen.storyboard in Resources */,
+				CC6F0FC82485F54B00B8BBAD /* Preview Assets.xcassets in Resources */,
+				CC6F0FC52485F54B00B8BBAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6F0FCF2485F54B00B8BBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6F0FDA2485F54B00B8BBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BB71C4933524693EE9FAFD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WashingMachine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC6F0FB72485F54900B8BBAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6F0FBF2485F54900B8BBAD /* AppDelegate.swift in Sources */,
+				CC6F10392486400500B8BBAD /* TimePickerView.swift in Sources */,
+				CC6F103024860C2100B8BBAD /* SelectionButton.swift in Sources */,
+				CC6F103B2486420D00B8BBAD /* TimePickerService.swift in Sources */,
+				CC6F0FC12485F54900B8BBAD /* SceneDelegate.swift in Sources */,
+				CC6F0FC32485F54900B8BBAD /* ContentView.swift in Sources */,
+				CC4E24FC24873BD000500D59 /* ClothesSelectionViewController.swift in Sources */,
+				CC4E24FE24874DAE00500D59 /* WashingMachineService.swift in Sources */,
+				CCCA2D0E24866DC400DA32C2 /* WorkingViewController.swift in Sources */,
+				CC6F102E2486005000B8BBAD /* FunctionSelectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6F0FCD2485F54B00B8BBAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6F0FD62485F54B00B8BBAD /* WashingMachineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6F0FD82485F54B00B8BBAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6F0FE12485F54B00B8BBAD /* WashingMachineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC6F0FD32485F54B00B8BBAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC6F0FBA2485F54900B8BBAD /* WashingMachine */;
+			targetProxy = CC6F0FD22485F54B00B8BBAD /* PBXContainerItemProxy */;
+		};
+		CC6F0FDE2485F54B00B8BBAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC6F0FBA2485F54900B8BBAD /* WashingMachine */;
+			targetProxy = CC6F0FDD2485F54B00B8BBAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC6F0FC92485F54B00B8BBAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6F0FCA2485F54B00B8BBAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC6F0FE32485F54B00B8BBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC6F0FE42485F54B00B8BBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC6F0FE62485F54B00B8BBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7BB02F2C44D2A15368B785 /* Pods-WashingMachine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WashingMachine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WashingMachine/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhe.WashingMachine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC6F0FE72485F54B00B8BBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F96ADD37DB9EC224E788F24 /* Pods-WashingMachine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WashingMachine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WashingMachine/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhe.WashingMachine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC6F0FE92485F54B00B8BBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WashingMachineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhe.WashingMachineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WashingMachine.app/WashingMachine";
+			};
+			name = Debug;
+		};
+		CC6F0FEA2485F54B00B8BBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WashingMachineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhe.WashingMachineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WashingMachine.app/WashingMachine";
+			};
+			name = Release;
+		};
+		CC6F0FEC2485F54B00B8BBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WashingMachineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhe.WashingMachineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WashingMachine;
+			};
+			name = Debug;
+		};
+		CC6F0FED2485F54B00B8BBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WashingMachineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhe.WashingMachineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WashingMachine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC6F0FB62485F54900B8BBAD /* Build configuration list for PBXProject "WashingMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6F0FE32485F54B00B8BBAD /* Debug */,
+				CC6F0FE42485F54B00B8BBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6F0FE52485F54B00B8BBAD /* Build configuration list for PBXNativeTarget "WashingMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6F0FE62485F54B00B8BBAD /* Debug */,
+				CC6F0FE72485F54B00B8BBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6F0FE82485F54B00B8BBAD /* Build configuration list for PBXNativeTarget "WashingMachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6F0FE92485F54B00B8BBAD /* Debug */,
+				CC6F0FEA2485F54B00B8BBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6F0FEB2485F54B00B8BBAD /* Build configuration list for PBXNativeTarget "WashingMachineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6F0FEC2485F54B00B8BBAD /* Debug */,
+				CC6F0FED2485F54B00B8BBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC6F0FB32485F54900B8BBAD /* Project object */;
+}
